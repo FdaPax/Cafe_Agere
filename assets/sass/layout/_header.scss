@@ -1,0 +1,25 @@
+.navbar__logo {
+    float: left;
+    img {
+        width: 90px;
+    }
+}
+.navbar__container {
+    float: left;
+}
+
+.navbar__container {
+    float: left;
+    width: 900px;
+    text-align: right;
+    ul {
+        display: inline-block;
+        font-family: $pt-mono;
+    }
+    li {
+        float: left;
+        padding-right: 10px;
+        list-style-type: none;
+    }
+    
+}
