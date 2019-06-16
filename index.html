@@ -23,17 +23,34 @@
 <body>
 
     <header class="header">
-        <nav class="navbar">
-            <div class="navbar__logo">
-                <a href="#"><img src="assets/img/logo.png" alt="Logo" class=""></a>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo" class="navbar__logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="navbar__container">
-                <ul class="navbar__list">
-                    <li><a href="#" class="link_primary">Acerca de</a></li>
-                    <li><a href="#" class="link_primary">Tienda</a></li>
-                    <li><a><button class="button">Regístrarse</button></a></li>
-                    <li><a><button class="button">Iniciar sesión</button></a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tienda</a>
+                        </li>
+                        <div class="right-elements">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><button class="btn btn-outline-success"
+                                        type="button">Iniciar
+                                        sesión</button></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><button class="btn btn-outline-success"
+                                        type="button">Registrarse</button></a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -42,37 +59,50 @@
             <figure class="main__image-1">
                 <img src="assets/img/img-1.png" alt="1">
             </figure>
-            <div class="main__container-2">
-                <div class="main__text-2">
-                    <h1>Café Agere</h1>
-                    <div class="main__square-yellow"></div>
-                </div>
-                <figure class="main__image-2">
-                    <img src="assets/img/img-2.png" alt="2">
-                </figure>
+        </div>
+        <div class="main__container-2">
+            <div class="main__text-2">
+                <h1>Café Agere</h1>
+                <h4>Coffe Shop</h4>
+                <div class="main__square-yellow"></div>
+                <div class="main__square-orange"></div>
             </div>
-            <div class="main__container-3">
-                <div class="main__text-3">
-                    <div class="row align-items-center col-content">
-                        <div class="col-4 columna-1">
-                            <h2>+50</h2>
-                            <p>Variedades de
+            <figure class="main__image-2">
+                <img src="assets/img/img-2.png" alt="2">
+            </figure>
+        </div>
+        <div class="main__container-3">
+            <div class="main__text-3">
+                <div class="row align-items-center col-content">
+                    <div class="col-4 columna-1">
+                        <h2>+50</h2>
+                        <p>Variedades de
                             Café</p>
-                        </div>
-                        <div class="col-4 columna-2">
-                            <h2>20</h2>
-                            <p>Países 
+                    </div>
+                    <div class="col-4 columna-2">
+                        <h2>20</h2>
+                        <p>Países
                             diferentes</p>
-                        </div>
-                        <div class="col-4 columna-3">
-                            <h2>+1000</h2>
-                            <p>Accesorios para
+                    </div>
+                    <div class="col-4 columna-3">
+                        <h2>+1000</h2>
+                        <p>Accesorios para
                             hacer el mejor café</p>
-                        </div>
                     </div>
                 </div>
-                <div class="main__rectangle"></div>
             </div>
+            <div class="main__rectangle">
+                <figure class="main__image-4">
+                    <img src="assets/img/img-3.png" alt="cafe">
+                </figure>
+            </div>
+            <figure class="main__image-3">
+                <img src="assets/img/img-4.png" alt="mapa">
+            </figure>
+        </div>
+        <div class="main__container-4">
+            <h3>Ven a Conocernos</h3>
+            <p>Disfruta de una gran experiencia tomando un café o un té dentro de nuestra tienda o si prefieres puedes comprar en línea nuestros cafés para disfrutarlos en casa.</p>
         </div>
     </main>
 
