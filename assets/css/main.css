@@ -9672,25 +9672,25 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 4.375rem;
   font-family: "PT Mono", sans-serif;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "PT Mono", sans-serif;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
@@ -9709,8 +9709,8 @@ body {
 }
 
 .navbar img {
-  width: 29px;
-  margin-left: 45px;
+  width: 1.8125rem;
+  margin-left: 2.8125rem;
 }
 .navbar__container {
   float: left;
@@ -9718,12 +9718,12 @@ body {
 .navbar__container ul {
   display: inline-block;
   font-family: "PT Mono", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .navbar__container li {
   float: left;
-  padding-right: 10px;
-  margin-left: 50px;
+  padding-right: 0.625rem;
+  margin-left: 3.125rem;
 }
 
 .main {
@@ -9734,16 +9734,16 @@ body {
   box-sizing: border-box;
 }
 .main__image-1 {
-  width: 899px;
-  height: 440px;
+  width: 56.1875rem;
+  height: 27.5rem;
   position: absolute;
   left: 0;
   top: 0;
   z-index: 1;
 }
 .main__container-2 {
-  width: 381px;
-  height: 704px;
+  width: 23.8125rem;
+  height: 44rem;
   float: right;
   border: 2px solid black;
   position: relative;
@@ -9754,12 +9754,12 @@ body {
   bottom: 0;
 }
 .main__image-2 img {
-  width: 381px;
-  height: 264px;
+  width: 23.8125rem;
+  height: 16.5rem;
 }
 .main__text-2 {
-  width: 381px;
-  height: 440px;
+  width: 23.8125rem;
+  height: 27.5rem;
   font-family: "PT Mono", sans-serif;
   position: absolute;
   top: 0;
@@ -9768,112 +9768,112 @@ body {
   padding-top: 3rem;
   padding-right: 4rem;
   padding-left: 4rem;
-  font-size: 70px;
+  font-size: 4.375rem;
 }
 .main__text-2 h4 {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 .main__square-yellow {
-  width: 135px;
-  height: 136px;
+  width: 8.4375rem;
+  height: 8.5rem;
   background-color: #eacb31;
   position: absolute;
   left: 0;
   bottom: 0px;
 }
 .main__square-orange {
-  width: 135px;
-  height: 136px;
+  width: 8.4375rem;
+  height: 8.5rem;
   background-color: #e4572e;
   position: absolute;
-  left: -15px;
-  bottom: 20px;
+  left: -0.9375rem;
+  bottom: 1.25rem;
   z-index: 3;
 }
 .main__container-3 {
-  width: 469px;
-  height: 368px;
+  width: 29.3125rem;
+  height: 23rem;
   float: right;
   border: 2px solid blue;
   position: relative;
-  top: 305px;
+  top: 19.0625rem;
   z-index: 2;
 }
 .main__rectangle {
-  width: 469px;
-  height: 232px;
+  width: 29.3125rem;
+  height: 14.5rem;
   position: absolute;
   bottom: 0;
   background-color: #3C91E6;
 }
 .main__text-3 {
-  width: 469px;
-  height: 146px;
+  width: 29.3125rem;
+  height: 9.125rem;
   background-color: #eeeded;
 }
 .main__image-3 {
-  width: 430px;
-  height: 210px;
+  width: 26.875rem;
+  height: 13.125rem;
   position: relative;
-  right: 35px;
-  top: 20px;
+  right: 2.1875rem;
+  top: 1.25rem;
   z-index: 1;
 }
 .main__image-4 {
-  height: 165px;
-  width: 96px;
+  height: 10.3125rem;
+  width: 6rem;
   position: absolute;
-  right: -50px;
+  right: -3.125rem;
   z-index: 2;
 }
 .main__container-4 {
   position: absolute;
-  bottom: 70px;
-  left: 65px;
+  bottom: 4.375rem;
+  left: 4.0625rem;
   font-family: "PT Mono", sans-serif;
 }
 .main__container-4 h3 {
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 .main__container-4 p {
-  width: 292px;
-  height: 96px;
-  font-size: 16px;
+  width: 18.25rem;
+  height: 6rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
 .col-content {
   float: left;
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   left: 0;
 }
 
 .columna-1 {
   float: left;
-  padding-left: 30px;
+  padding-left: 1.875rem;
   position: relative;
-  left: 20px;
+  left: 1.25rem;
 }
 
 .columna-2 {
   float: left;
-  padding-left: 17px;
-  padding-right: 31px;
+  padding-left: 1.0625rem;
+  padding-right: 1.9375;
 }
 
 .columna-3 {
   float: left;
-  padding-right: 14px;
+  padding-right: 0.875rem;
   position: relative;
-  right: 35px;
+  right: 2.1875rem;
 }
 
 .right-elements {
   position: absolute;
   right: 0;
   display: inherit;
-  bottom: 7px;
+  bottom: 0.4375rem;
 }
 
 /*# sourceMappingURL=main.css.map */
