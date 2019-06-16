@@ -1,25 +1,21 @@
-.navbar__logo {
-    float: left;
+.navbar {
     img {
-        width: 90px;
+        width: 29px;
+        margin-left: 45px;
     }
-}
-.navbar__container {
-    float: left;
+    &__container {
+        float: left;
+        ul {
+            display: inline-block;
+            font-family: $pt-mono;
+            font-size: $medium;
+        }
+        li {
+            float: left;
+            padding-right: 10px;
+            margin-left: 50px;
+        }
+    }
 }
 
-.navbar__container {
-    float: left;
-    width: 900px;
-    text-align: right;
-    ul {
-        display: inline-block;
-        font-family: $pt-mono;
-    }
-    li {
-        float: left;
-        padding-right: 10px;
-        list-style-type: none;
-    }
-    
-}
+
